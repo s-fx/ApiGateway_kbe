@@ -9,5 +9,4 @@ public class ApiGatewayKbeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ApiGatewayKbeApplication.class, args);
 	}
-
 }
