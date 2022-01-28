@@ -7,6 +7,10 @@ spring:
           uri: http://localhost:8082/
           predicates:
             - Path=/api/laptops/**
+        - id: Google_external_api
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/getLocationLaptop/**
         - id: CalculatorMS_kbe
           uri: http://localhost:8081/
           predicates:
